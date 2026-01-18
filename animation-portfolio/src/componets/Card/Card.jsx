@@ -1,0 +1,14 @@
+import "./Card.css";
+
+const Card = ({title, image}) => {
+  return (
+    <div className="card">
+        <h1>{title}</h1>
+        <div className="hovercard">
+            <img src={image} />
+        </div>
+    </div>
+  )
+}
+
+export default Card
